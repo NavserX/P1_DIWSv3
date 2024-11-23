@@ -1,0 +1,139 @@
+/* Establezco la fuente base para el cuerpo de la página y el color de texto */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 25);
+    margin: 0 300px; /* Añadiendo márgenes laterales */
+}
+
+/* Defino el estilo del header con padding y centrado de texto */
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Cambio el color del texto del título principal */
+header h1 {
+    color: orange;
+}
+
+/* Establezco el estilo del menú de navegación, quitando los estilos por defecto de la lista */
+nav ul {
+    list-style-type: none;
+    padding: 0; /* Elimino el padding por defecto de la lista */
+}
+
+/* Defino los estilos para los enlaces del menú de navegación */
+nav a {
+    color: rgb(0, 0, 25);
+    text-decoration: none; /* Elimino el subrayado de los enlaces */
+}
+
+/* Cambio el color de los enlaces al pasar el ratón por encima */
+nav a:hover {
+    color: rgba(0, 0, 25, 0.5);
+}
+
+/* Establezco estilo para el enlace activo del menú */
+.activo {
+    font-weight: 700; /* Texto en negrita */
+    font-style: italic; /* Estilo en cursiva */
+}
+
+.resaltado {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+/* Alineo las imágenes dentro de los elementos <figure> */
+figure {
+    text-align: center;
+}
+
+/* Defino el estilo para las imágenes, centradas y ajustadas al ancho máximo del contenedor */
+figure img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Establezco el fondo y color del texto en el footer */
+footer {
+    background-color: rgb(0, 0, 25);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Defino los estilos para los enlaces dentro del footer */
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* Elimino el subrayado de los enlaces */
+}
+
+/* Cambio el color de los enlaces del footer cuando se pasa el ratón por encima */
+footer a:hover {
+    color: rgb(240, 93, 80);
+}
+
+/* Estilo especial para citas en bloque (<blockquote>) */
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Mantengo centrados los títulos de los niveles h2 y h3 */
+h2, h3 {
+    text-align: center;
+}
+
+/* Defino el estilo para los términos (<dt>) dentro de una lista de definiciones */
+dl dt {
+    font-weight: bold;
+}
+
+/* Agrego margen a las descripciones (<dd>) dentro de las listas de definiciones */
+dl dd {
+    margin-left: 20px;
+    color: rgba(0, 0, 25, 0.5); /* Color con opacidad */
+}
+
+/* Aplico color naranja a los enlaces dentro de las listas del contenido principal */
+main ul li a {
+    color: orange;
+}
+
+/* Mantengo el mismo color naranja para los enlaces visitados */
+main ul li a:visited {
+    color: orange;
+}
+
+/* Añado margenes superiores e inferiores al h4 que uso en Listado Nobel Literatura para mejorar la lectura */
+main h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Defino una clase para centrar el contenido */
+.centrado {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.centrado h4, .centrado ul {
+    width: 100%; /* Hace que los elementos ocupen todo el ancho */
+    max-width: 600px; /* Limita el ancho máximo para que no se extienda demasiado */
+    text-align: left; /* Justifica el texto a la izquierda */
+}
+
+.centrado ul {
+    list-style-position: inside; /* Hace que las viñetas se muestren dentro del contenido */
+    padding: 0; /* Elimina el padding de las listas */
+}
+
+/* Defino una clase contenedora que se ajusta al 95% del ancho de la pantalla y tiene un límite de 1140px */
+.container {
+    width: 95%;
+    max-width: 1140px;
+}
+
